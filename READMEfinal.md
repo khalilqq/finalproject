@@ -1,22 +1,61 @@
-# Titanic Survival Prediction Final Project
+Overview
+This project explores the famous Titanic passenger dataset to predict passenger survival outcomes.
+Using Python and machine learning techniques, we clean and process the data, visualize important patterns, conduct statistical analysis, and train a predictive model with a Decision Tree Classifier.
 
-## Overview
-This project analyzes Titanic passenger data to predict survival using a Decision Tree Classifier. We perform data cleaning, visualization, statistical testing, and modeling.
+Libraries Used
+NumPy — Mathematical operations and array support
 
-## Libraries Used
-- numpy
-- pandas
-- scipy
-- matplotlib
-- seaborn
-- scikit-learn
+Pandas — Data loading, cleaning, and manipulation
 
-## How to Run
-- Install libraries: `pip install -r requirements.txt`
-- Run `titanic_analysis.ipynb` notebook
+SciPy — Statistical testing (T-test on passenger ages)
 
-## Files
-- `/data`: Titanic dataset
-- `/notebooks`: Jupyter notebook
-- `/src`: Cleaning, visualization, modeling scripts
-- `chatgpt_chatlog.txt`: AI help records
+Matplotlib — Basic graph plotting
+
+Seaborn — Advanced data visualizations
+
+Scikit-learn — Machine learning modeling and evaluation
+
+ How to Run This Project
+Clone the repository.
+
+Install required libraries:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Open and run the notebook:
+
+bash
+Copy
+Edit
+jupyter notebook titanic_analysis.ipynb
+ Project Structure
+
+Folder/File	Description
+/data/	Titanic dataset (CSV)
+/notebooks/	Jupyter Notebook with full analysis
+/src/	Scripts for cleaning, visualization, and modeling
+chatgpt_chatlog.txt	Record of AI-assisted support (ChatGPT help)
+ Project Features
+Data cleaning (missing values, categorical encoding)
+
+Visualizations (Survival Count, Survival Rate by Sex, Overall Survival Pie Chart)
+
+Statistical testing (T-test comparing age differences)
+
+Machine learning model (Decision Tree Classifier)
+
+Model evaluation (Accuracy, Precision, Recall, F1 Score)
+
+ Notes
+This project was developed with assistance from generative AI (ChatGPT).
+
+All code, decisions, and final outputs were independently reviewed and adjusted.
+
+ TL;DR
+Clean
+Professional
+Follows GitHub expectations for a real project README
+ Fully covers your project flow
+
